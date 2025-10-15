@@ -1,0 +1,111 @@
+/* TODO: finetune font sizing, spacing etc. For now these are just ai-generated general font sizing for different text elements */
+h1 {
+    font-family: var(--font-museo-moderno), sans-serif;
+    @apply text-6xl leading-tight font-extrabold tracking-tight;
+    @apply lg:text-7xl;
+}
+
+h2 {
+    font-family: var(--font-museo-moderno), sans-serif;
+    @apply text-4xl leading-tight font-extrabold tracking-tight;
+    @apply lg:text-5xl;
+}
+
+h3 {
+    font-family: var(--font-museo-moderno), sans-serif;
+    @apply text-3xl leading-snug font-extrabold tracking-tight;
+    @apply lg:text-4xl;
+}
+
+h4 {
+    font-family: var(--font-museo-moderno), sans-serif;
+    @apply text-2xl leading-snug font-extrabold tracking-tight;
+    @apply lg:text-3xl;
+}
+
+h5 {
+    font-family: var(--font-museo-moderno), sans-serif;
+    @apply text-xl leading-snug font-extrabold tracking-tight;
+    @apply lg:text-2xl;
+}
+
+h6 {
+    font-family: var(--font-museo-moderno), sans-serif;
+    @apply text-lg leading-snug font-extrabold tracking-tight;
+    @apply lg:text-xl;
+}
+
+body {
+    font-family: var(--font-roboto), sans-serif;
+    @apply text-base leading-relaxed tracking-normal;
+    @apply lg:text-lg;
+}
+
+p {
+    font-family: var(--font-roboto), sans-serif;
+    @apply text-base leading-relaxed tracking-normal;
+    @apply lg:text-lg;
+}
+
+span,
+div,
+li {
+    font-family: var(--font-roboto), sans-serif;
+    @apply font-normal;
+}
+
+a {
+    font-family: var(--font-roboto), sans-serif;
+    @apply font-normal tracking-normal;
+    @apply transition-colors duration-500;
+}
+
+td,
+th {
+    font-family: var(--font-roboto), sans-serif;
+    @apply text-sm leading-normal tracking-normal;
+    @apply lg:text-base;
+}
+
+th {
+    @apply font-bold;
+}
+
+strong,
+b {
+    font-family: var(--font-roboto), sans-serif;
+    @apply font-bold;
+}
+
+button {
+    font-family: var(--font-roboto), sans-serif;
+    @apply text-sm leading-normal tracking-wider;
+    @apply transition-all duration-500;
+}
+
+input,
+textarea,
+select {
+    font-family: var(--font-roboto), sans-serif;
+    @apply text-base leading-normal font-normal tracking-normal;
+    @apply lg:text-lg;
+}
+
+small {
+    font-family: var(--font-roboto), sans-serif;
+    @apply text-sm leading-normal tracking-normal;
+}
+
+blockquote {
+    font-family: var(--font-roboto), sans-serif;
+    @apply text-lg leading-relaxed tracking-normal italic;
+    @apply lg:text-xl;
+}
+
+code {
+    @apply text-sm tracking-tight;
+}
+
+pre {
+    @apply text-sm leading-relaxed;
+}
