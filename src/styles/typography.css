@@ -87,8 +87,7 @@ input,
 textarea,
 select {
     font-family: var(--font-roboto), sans-serif;
-    @apply text-base leading-normal font-normal tracking-normal;
-    @apply lg:text-lg;
+    @apply text-sm leading-normal font-normal tracking-normal;
 }
 
 small {

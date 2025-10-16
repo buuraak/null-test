@@ -19,7 +19,7 @@ export default function HomeClient() {
     }, []);
 
     return (
-        <div className="relative z-10 flex min-h-screen flex-col items-center justify-center gap-8">
+        <div className="relative z-20 flex min-h-screen flex-col items-center justify-center gap-8">
             {showPopup && <ReferralPopUp setShowPopup={setShowPopup} />}
             <div
                 ref={logoRef}
