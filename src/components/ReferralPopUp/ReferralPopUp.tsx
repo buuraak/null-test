@@ -44,8 +44,8 @@ export default function ReferralPopUp({ setShowPopup }: ReferralPopUpProps) {
     }
 
     return (
-        <div className={`absolute z-10 flex h-screen w-screen items-center justify-center ${isClosing ? "animate-out fade-out duration-300" : "animate-in fade-in duration-300"}`}>
-            <div onClick={handleClose} className="absolute h-full w-full bg-black/40 backdrop-blur-sm" />
+        <div className="absolute z-10 flex h-screen w-screen items-center justify-center">
+            <div onClick={handleClose} className={`absolute h-full w-full bg-black/40 backdrop-blur-sm ${isClosing ? "animate-out fade-out duration-300" : "animate-in fade-in duration-300"}`} />
             <div
                 className={`border-primary/20 relative w-full max-w-md rounded-2xl border bg-[#0a0a0a] p-6 ${isClosing ? "animate-out fade-out zoom-out-95 duration-300" : "animate-in fade-in zoom-in-95 duration-300"}`}
             >
