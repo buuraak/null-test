@@ -20,7 +20,7 @@ export default function HomeClient() {
 
     return (
         <div className="relative z-20 flex min-h-screen flex-col items-center justify-center">
-            <Image src={"/images/logo/blue-symbol-only.png"} width={50} height={50} alt="Blue symbol only" className="absolute left-8 top-8" />
+            <Image src={"/images/logo/blue-symbol-only.png"} width={50} height={50} alt="Blue symbol only" className="absolute top-8 left-8" />
             {showPopup && <ReferralPopUp setShowPopup={setShowPopup} />}
             <div
                 ref={logoRef}
@@ -32,7 +32,7 @@ export default function HomeClient() {
                 }}
             >
                 {/* <Image src="/images/logo/blue-text-only.png" width={1920} height={1080} alt="Null - Navigate Unseen, Live Limitless" priority className="max-h-[400px] max-w-[400px]" /> */}
-                <h1 className="!text-[200px] text-white">
+                <h1 className="lg:!text-[200px] !text-[150px] text-white">
                     null<span className="text-primary">.</span>
                 </h1>
             </div>
