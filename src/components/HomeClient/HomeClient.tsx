@@ -19,7 +19,7 @@ export default function HomeClient() {
     }, []);
 
     return (
-        <div className="relative z-20 flex min-h-screen flex-col items-center justify-center">
+        <div className="relative z-20 flex min-h-screen flex-col items-center justify-center overflow-visible">
             <Image src={"/images/logo/blue-symbol-only.png"} width={50} height={50} alt="Blue symbol only" className="absolute top-8 left-8" />
             {showPopup && <ReferralPopUp setShowPopup={setShowPopup} />}
             <div
@@ -30,6 +30,7 @@ export default function HomeClient() {
                     filter: isButtonHovered ? "drop-shadow(0 0 35px rgba(0, 112, 255, 0.4))" : "drop-shadow(0 0 30px rgba(0, 112, 255, 0.3))",
                     transition: "filter 0.4s ease-out",
                 }}
+                className="overflow-visible"
             >
                 {/* <Image src="/images/logo/blue-text-only.png" width={1920} height={1080} alt="Null - Navigate Unseen, Live Limitless" priority className="max-h-[400px] max-w-[400px]" /> */}
                 <h1 className="lg:!text-[200px] !text-[150px] text-white">
