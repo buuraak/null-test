@@ -29,6 +29,8 @@ export default function HomeClient() {
                     transform: `translateY(-${10}px)`,
                     filter: isButtonHovered ? "drop-shadow(0 0 35px rgba(0, 112, 255, 0.4))" : "drop-shadow(0 0 30px rgba(0, 112, 255, 0.3))",
                     transition: "filter 0.4s ease-out",
+                    padding: "50px",
+                    margin: "-50px",
                 }}
                 className="overflow-visible"
             >
